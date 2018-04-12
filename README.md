@@ -1,5 +1,5 @@
 # socialsite
 
-I created the Entire project using XAMPP.
-This App is Completely Vulnerable
-Have fun breaking it.
+I created the Entire project using XAMPP.<br>
+This App is Completely Vulnerable<br>
+Have fun breaking it.<br>
