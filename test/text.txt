@@ -1,0 +1,8 @@
+Photo Tasks
+
+Post pic:-
+6. modify home.php to upload pic as a post.
+7. modify home.php to display the Post pic in the Div
+8. Post PIC upload must go to a specific folder in user-specific folder.
+
+9. modify DB tables to hold image filename.

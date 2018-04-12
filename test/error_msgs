@@ -1,0 +1,18 @@
+Notice in ./libraries/relation.lib.php#473
+Undefined index: controllink
+
+Backtrace
+
+./libraries/relation.lib.php#66: PMA_checkRelationsParam()
+./libraries/RecentFavoriteTable.class.php#383: PMA_getRelationsParam()
+./libraries/RecentFavoriteTable.class.php#63: PMA_RecentFavoriteTable->_getPmaTable()
+./libraries/RecentFavoriteTable.class.php#79: PMA_RecentFavoriteTable->__construct(string 'recent')
+./libraries/Header.class.php#773: PMA_RecentFavoriteTable::getInstance(string 'recent')
+./libraries/Header.class.php#482: PMA_Header->_addRecentTable(
+string 'MyDB',
+string 'friend_req',
+)
+./libraries/Response.class.php#263: PMA_Header->getDisplay()
+./libraries/Response.class.php#287: PMA_Response->_getDisplay()
+./libraries/Response.class.php#395: PMA_Response->_ajaxResponse()
+PMA_Response::response()
